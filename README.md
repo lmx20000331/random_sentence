@@ -1,4 +1,4 @@
-## random_sentence
+# random_sentence
 随机生成若干句子或数学表达式
 
 创建新仓库的指令：
@@ -11,10 +11,10 @@
 　　git push -u origin master //把本地库的所有内容推送到远程库上
   
   
-## 解决git上传文件出错[rejected] master -> master (fetch first) error: failed to push some refs to '
+# 解决git上传文件出错[rejected] master -> master (fetch first) error: failed to push some refs to '
 
 刚开始用git上传文件的时候遇到了一些问题
-# 第一个问题
+## 第一个问题
 上传步骤：
 git add .
 git commit -m "提示消息"
@@ -27,14 +27,14 @@ git push origin master
 
 git pull --rebase origin master
 
-# 第二个问题
+## 第二个问题
 ! [remote rejected] master -> master (pre-receive hook declined)
 
 在推送代码时报错如上，网上搜到的方法说是项目的setting中master是受保护的项目，所以开发者无法推送，解决方法是修改protected的设置，或者新建一个分支，推送到自己的分支上
 
 解决办法的文章
 
-# 第三个问题
+## 第三个问题
 git add .
 git push origin master
 
